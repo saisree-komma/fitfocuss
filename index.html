@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <title> FitFocuss</title>
 </head>
-<body >
+
+<body>
 
   <header>
     <div class="title">FITFOCUSS</div>
@@ -18,160 +20,189 @@
         <div class="nav-item"><a href="#programs" onclick="showContent('programs')">Programs</a></div>
         <div class="nav-item"><a href="#contact" onclick="showContent('contact')">Contact Us</a></div>
         <div class="nav-item"><a href="#reviews" onclick="showContent('reviews')">Reviews</a></div>
-        <div class="nav-item"><a href="#signup" onclick="showContent('signup')">Sign Up</a></div>
+        <!--<div class="nav-item"><a href="#signup" onclick="showContent('signup')">Sign Up</a></div>-->
+        <div class="nav-item"><a href="signup.html" style="text-decoration: none" >Sign Up</a></div>
       </div>
+      <!--
       <div class="right-nav">
-        <div class="nav-item">
+        <div class="nav-item" href = "Login.html">
           <img src="loginimg.png" alt="Login">
           Login
         </div>
       </div>
+      -->
+      <div class="right-nav">
+        <a class="nav-item" href="Login.html" style="text-decoration: none">
+          <img src="loginimg.png" alt="Login">
+          Login
+        </a>
+      </div>
+            
     </div>
   </header>
-    <div></div>
-  <main class="flex-container">    
-     
-      <section id="About" class="aboutFitfocuss">
-        <h3>Train Hard and Sweat Hard</h3>
-        <p>FitFocus, the ideal wellness companion, creates personalized fitness plans free of boring details. Personalized workouts and nutrition advice can help you achieve your goals, whether they are to lose weight or add muscle. Integrate your own fitness journey into your regular routine with simplicity.</p>
-        <button id="Programs">Enroll a Program</button>
-      </section>
-      <section class="newsletter-section">
-        <h2>Stay Tuned</h2>
-        <p>Subscribe to Our Newsletter</p>
-        <form id="newsletterForm">
-          <input type="email" placeholder="Email" required>
-          <button type="submit">Join</button>
-        </form>
-      </section> 
+  <div></div>
+  <main class="flex-container">
+
+    <section id="About" class="aboutFitfocuss">
+      <h3>Train Hard and Sweat Hard</h3>
+      <p>FitFocus, the ideal wellness companion, creates personalized fitness plans free of boring details. Personalized
+        workouts and nutrition advice can help you achieve your goals, whether they are to lose weight or add muscle.
+        Integrate your own fitness journey into your regular routine with simplicity.</p>
+      <button id="Programs">Enroll a Program</button>
+    </section>
+    <section class="newsletter-section">
+      <h2>Stay Tuned</h2>
+      <p>Subscribe to Our Newsletter</p>
+      <form id="newsletterForm">
+        <input type="email" placeholder="Email" required>
+        <button type="submit">Join</button>
+      </form>
+    </section>
   </main>
-    <div id="about" class="about-section">
-        <img src="bg2.jpg" alt="About Image">
-        <div class="text-content">
-            <h3>About</h3>
-            <p id="aboutContent">
-                FitFocus is more than just a fitness platform; it's a transformative journey towards a healthier and happier life. Our progress tracking ensures that your path to well-being is not only efficient but also incredibly rewarding.
-                We believe in a holistic approach to wellness, addressing physical fitness, nutrition, and mental well-being. FitFocus provides personalized fitness plans that go beyond the ordinary, offering engaging workouts and tailored nutrition advice to help you achieve your unique goals.
-            </p>
-            
-            <span id="additionalContent" class="hidden">
-                Our user-friendly platform seamlessly integrates your fitness journey into your daily routine, making health improvement simple and enjoyable. The progress tracking feature guarantees that every step you take with FitFocus leads you closer to your wellness goals.
-                Join us today to experience a wellness journey that is both efficient and rewarding.
-              Our progress tracking ensures efficiency and rewards, while personalized fitness plans and nutrition advice cater to your unique goals. Seamlessly integrate your fitness journey into your routine with our user-friendly platform. Join us for a wellness experience that's tailored, efficient.
-            </span>
-            <span><button onclick="toggleReadMore()">Read More</button></span>
-            
-        </div>
-    </div>     
-    <div class="image-container">
-      <div> <img src="ex1.webp" alt="excersie1">
+  <div id="about" class="about-section">
+    <img src="bg2.jpg" alt="About Image">
+    <div class="text-content">
+      <h3>About</h3>
+      <p id="aboutContent">
+        FitFocus is more than just a fitness platform; it's a transformative journey towards a healthier and happier
+        life. Our progress tracking ensures that your path to well-being is not only efficient but also incredibly
+        rewarding.
+        We believe in a holistic approach to wellness, addressing physical fitness, nutrition, and mental well-being.
+        FitFocus provides personalized fitness plans that go beyond the ordinary, offering engaging workouts and
+        tailored nutrition advice to help you achieve your unique goals.
+      </p>
+
+      <span id="additionalContent" class="hidden">
+        Our user-friendly platform seamlessly integrates your fitness journey into your daily routine, making health
+        improvement simple and enjoyable. The progress tracking feature guarantees that every step you take with
+        FitFocus leads you closer to your wellness goals.
+        Join us today to experience a wellness journey that is both efficient and rewarding.
+        Our progress tracking ensures efficiency and rewards, while personalized fitness plans and nutrition advice
+        cater to your unique goals. Seamlessly integrate your fitness journey into your routine with our user-friendly
+        platform. Join us for a wellness experience that's tailored, efficient.
+      </span>
+      <span><button onclick="toggleReadMore()">Read More</button></span>
+
+    </div>
+  </div>
+  <div class="image-container">
+    <div> <img src="ex1.webp" alt="excersie1">
       <h5>Lunges</h5>
-      <p>one leg is positioned forward with knee bent and foot flat on the ground while the other leg is positioned behind.</p>
+      <p>one leg is positioned forward with knee bent and foot flat on the ground while the other leg is positioned
+        behind.</p>
       <button> Enroll </button>
-      </div>
-      <div> <img src="ex3.webp" alt="excersie3">
+    </div>
+    <div> <img src="ex3.webp" alt="excersie3">
       <h5>Leg Extensions </h5>
-      <p> an isolation exercise that targets the quadriceps muscles in the front of the thigh</p> 
-      <button> Enroll </button></div>
-      <div> <img src="ex2.webp" alt="excersie2">
-      <h5>Tree Pose</h5> 
-      <p>tucking one leg into the other while your hands are in a prayer position above your head, resembling a tree.</p>
-      <button> Enroll </button></div>    
-           
+      <p> an isolation exercise that targets the quadriceps muscles in the front of the thigh</p>
+      <button> Enroll </button>
     </div>
-    <div class="membershipsection">
-      <section >
-        <h2>Discover Our Membership Plans</h2>
-        <p>Get Unlimited Access</p>
-        <button id="joinButton">Become a Member</button>
-      </section>
-    </div>
-    <div class="staff-section">
-      <div class="left-content">
-        <h2>Meet Our Exceptional Instructors</h2>
-        <p>At FitFOCUSS, we take pride in having a team of dedicated and passionate instructors who are committed to helping you achieve your fitness goals. Our top-rated instructors bring a wealth of experience, expertise, and positive energy to every session.</p>
-        <p>Whether you're a beginner or an experienced fitness enthusiast, our instructors are here to guide you on your wellness journey. They tailor workouts to suit your needs, provide valuable insights on nutrition, and create an inclusive and motivating environment for everyone.</p>
-        <p>Discover the expertise that sets our instructors apart. Join us for engaging and effective fitness sessions led by professionals who are not just trainers but also partners in your fitness success.</p>
-      </div>
-      <div class="right-content">
-        <button class="view-all-button">View All</button>
-      </div>
-    </div> 
-    
-      <div id="instructors" class="trainer-container">
-        <div class="trainer">
-          <img src="trainer1.jpeg" alt="trainer1">
-          <p class="trainer-name">Shaun Stafford</p>
-        </div>
-        
-        <div class="trainer">
-          <img src="trainer2.jpeg" alt="trainer2">
-          <p class="trainer-name">Kayla Itsines</p>
-        </div>
-    
-      <div class="trainer">
-        <img src="trainer3.jpeg" alt="trainer2">
-        <p class="trainer-name">Nick Mitchell</p>
-      </div>
+    <div> <img src="ex2.webp" alt="excersie2">
+      <h5>Tree Pose</h5>
+      <p>tucking one leg into the other while your hands are in a prayer position above your head, resembling a tree.
+      </p>
+      <button> Enroll </button>
     </div>
 
-    <div class="icon-container">
-      <div class="icon">
-        <img src="watch.png" alt="watch">
-        <p>Watch Anytime</p>
+  </div>
+  <div class="membershipsection">
+    <section>
+      <h2>Discover Our Membership Plans</h2>
+      <p>Get Unlimited Access</p>
+      <button id="joinButton">Become a Member</button>
+    </section>
+  </div>
+  <div class="staff-section">
+    <div class="left-content">
+      <h2>Meet Our Exceptional Instructors</h2>
+      <p>At FitFOCUSS, we take pride in having a team of dedicated and passionate instructors who are committed to
+        helping you achieve your fitness goals. Our top-rated instructors bring a wealth of experience, expertise, and
+        positive energy to every session.</p>
+      <p>Whether you're a beginner or an experienced fitness enthusiast, our instructors are here to guide you on your
+        wellness journey. They tailor workouts to suit your needs, provide valuable insights on nutrition, and create an
+        inclusive and motivating environment for everyone.</p>
+      <p>Discover the expertise that sets our instructors apart. Join us for engaging and effective fitness sessions led
+        by professionals who are not just trainers but also partners in your fitness success.</p>
+    </div>
+    <div class="right-content">
+      <button class="view-all-button">View All</button>
+    </div>
+  </div>
+
+  <div id="instructors" class="trainer-container">
+    <div class="trainer">
+      <img src="trainer1.jpeg" alt="trainer1">
+      <p class="trainer-name">Shaun Stafford</p>
+    </div>
+
+    <div class="trainer">
+      <img src="trainer2.jpeg" alt="trainer2">
+      <p class="trainer-name">Kayla Itsines</p>
+    </div>
+
+    <div class="trainer">
+      <img src="trainer3.jpeg" alt="trainer2">
+      <p class="trainer-name">Nick Mitchell</p>
+    </div>
+  </div>
+
+  <div class="icon-container">
+    <div class="icon">
+      <img src="watch.png" alt="watch">
+      <p>Watch Anytime</p>
+    </div>
+
+    <div class="icon">
+      <img src="clock.png" alt="clock">
+      <p>Flexible Schedule</p>
+    </div>
+
+    <div class="icon">
+      <img src="equip.png" alt="noE">
+      <p>No Equipment Needed</p>
+    </div>
+
+    <div class="icon">
+      <img src="nod.png" alt="NoEquip">
+      <p>Watch on any Device</p>
+    </div>
+  </div>
+
+  <div id="reviews" class="reviews-section">
+    <h3>Client Reviews</h3>
+
+    <div class="client-reviews-container">
+      <div class="client-review">
+        <p>The Boost I Needed.</p>
+        <p class="client-name">John Doe</p>
       </div>
-      
-      <div class="icon">
-        <img src="clock.png" alt="clock">
-        <p>Flexible Schedule</p>
+
+      <div class="client-review">
+        <p>Best Trainer You Can Find.</p>
+        <p class="client-name">Jane Smith</p>
       </div>
-    
-      <div class="icon">
-        <img src="equip.png" alt="noE">
-        <p>No Equipment Needed</p>
-      </div>
-    
-      <div class="icon">
-        <img src="nod.png" alt="NoEquip">
-        <p>Watch on any Device</p>
+
+      <div class="client-review">
+        <p>Never Missed a Class.</p>
+        <p class="client-name">Bob Johnson</p>
       </div>
     </div>
-    
-    <div id="Reviews" class="reviews-section">
-      <h3>Client Reviews</h3>
-
-      <div class="client-reviews-container">
-        <div class="client-review">
-          <p>The Boost I Needed.</p>
-          <p class="client-name">John Doe</p>
-        </div>
-
-        <div class="client-review">
-          <p>Best Trainer You Can Find.</p>
-          <p class="client-name">Jane Smith</p>
-        </div>
-
-        <div class="client-review">
-          <p>Never Missed a Class.</p>
-          <p class="client-name">Bob Johnson</p>
-        </div>
-      </div>
-    </div>
+  </div>
 
   <footer>
     <div class="footer-nav">
       <div class="nav-item">FitFocus</div>
-      <div class="nav-item">Program</div>           
+      <div class="nav-item">Program</div>
       <div class="nav-item">Instructors</div>
-      <div class="nav-item">About</div>     
+      <div class="nav-item">About</div>
       <div class="nav-item">Contact</div>
     </div>
     <div class="social-media">
       <a href="#" class="social-icon"><img src="facebook.png" alt="fb"></a>
       <a href="#" class="social-icon"><img src="instagram.png" alt="insta"></a>
       <a href="#" class="social-icon"><img src="twitter.png" alt="twitter"></a>
-      <a href="#"class="social-icon"><img src="snapchat.png" alt="snap"></a>
-      <a href="#"class="social-icon"><img src="linkedin.png" alt="linkedin"></a>
+      <a href="#" class="social-icon"><img src="snapchat.png" alt="snap"></a>
+      <a href="#" class="social-icon"><img src="linkedin.png" alt="linkedin"></a>
     </div>
     <p>©2023 by FITFOCUSS.</p>
   </footer>
@@ -179,4 +210,5 @@
   <script src="script.js"></script>
 
 </body>
+
 </html>
